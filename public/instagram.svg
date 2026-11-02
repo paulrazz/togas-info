@@ -1,0 +1,30 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Define the iconic Instagram gradient -->
+<defs>
+<radialGradient id="ig_gradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(62.3051 227.025) rotate(-46.0354) scale(260.598 260.598)">
+<stop offset="0" stop-color="#FED011"/>
+<stop offset="0.05" stop-color="#FED011"/>
+<stop offset="0.1" stop-color="#FEAD11"/>
+<stop offset="0.2" stop-color="#F75022"/>
+<stop offset="0.3" stop-color="#E91741"/>
+<stop offset="0.5" stop-color="#C51880"/>
+<stop offset="1" stop-color="#5A26B1"/>
+</radialGradient>
+</defs>
+
+<!-- Background Shape (Rounded Square) -->
+
+<rect width="256" height="256" rx="60" fill="url(#ig_gradient)"/>
+
+<!-- Camera Lens Outline -->
+
+<rect x="52" y="52" width="152" height="152" rx="42" stroke="white" stroke-width="16"/>
+
+<!-- Center Circle -->
+
+<circle cx="128" cy="128" r="38" stroke="white" stroke-width="16"/>
+
+<!-- Flash Dot -->
+
+<circle cx="185" cy="71" r="10" fill="white"/>
+</svg>

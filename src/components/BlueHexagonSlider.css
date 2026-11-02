@@ -1,0 +1,70 @@
+.blue-hexagon-slider-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4rem;
+    padding: 6rem 2rem;
+    background-color: #f0f4f8;
+    background-image: url('/bg_section3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* --- Blue Hexagon Grid --- */
+.blue-hexagon-grid {
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+
+.blue-hexagon-btn {
+    position: absolute;
+    width: 130px;
+    height: 74px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 1;
+    color: #333333;
+    padding: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.blue-hexagon-btn::before,
+.blue-hexagon-btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: -1;
+}
+
+.blue-hexagon-btn::before {
+    top: -35px;
+    border-bottom: 35px solid #ffffff;
+}
+
+.blue-hexagon-btn::after {
+    bottom: -35px;
+    border-top: 35px solid #ffffff;
+}
+
+/* Layout for 3 Items (Cluster) */
+/* 
+   Item 0 (Top)
+   Item 1 (Bottom Left)
+   Item 2 (¶»§q«^

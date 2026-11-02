@@ -1,0 +1,46 @@
+:root {
+    /* KOGAS Corporate Identity Palette */
+    --color-primary: #0061AE;
+    /* Established Blue */
+    --color-primary-light: #1693F3;
+    /* Bright Accent Blue */
+    --color-primary-dark: #004B87;
+    /* Deep Corporate Blue */
+
+    --color-accent: #1693F3;
+    /* Secondary Blue for actions */
+    --color-accent-light: #5BADFF;
+    --color-accent-dark: #0061AE;
+
+    /* Corporate Neutral Scale */
+    --color-text-primary: #222222;
+    /* Charcoal for headings */
+    --color-text-secondary: #444444;
+    /* Dark Grey for body */
+    --color-text-muted: #666666;
+    /* Medium Grey for secondary info */
+
+    /* Clean Backgrounds */
+    --color-bg-primary: #FFFFFF;
+    /* Pure White */
+    --color-bg-secondary: #F8F9FA;
+    /* Light Grey for sections */
+    --color-bg-tertiary: #E9ECEF;
+    /* Dividers/Borders */
+    --color-bg-footer: #2E2E2E;
+    /* Deep Charcoal for footer */
+    --color-bg-footer-top: #444444;
+    /* Lighter Charcoal for footer links */
+
+    /* Professional Gradients (Subtle) */
+    --gradient-primary: linear-gradient(135deg, #0061AE 0%, #004B87 100%);
+    --gradient-hero: linear-gradient(to right, #F8F9FA 0%, #FFFFFF 100%);
+    --gradient-accent: linear-gradient(135deg, #1693F3 0%, #0061AE 100%);
+
+    /* Removed: Gradient Mesh & Noise (Too busy/immature) */
+    --gradient-mesh: none;
+    --noise-opacity: 0;
+
+    /* Fluid Typography */
+    --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-display: 'Outfit',¶»§q«^

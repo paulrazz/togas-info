@@ -1,0 +1,77 @@
+.about {
+    padding-top: 70px;
+}
+
+.about-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: var(--spacing-5xl) 0 var(--spacing-4xl);
+    text-align: center;
+}
+
+.about-hero h1 {
+    font-size: var(--font-size-5xl);
+    margin-bottom: var(--spacing-lg);
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about-hero .hero-subtitle {
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.content-section {
+    padding: var(--spacing-5xl) 0;
+}
+
+.mission-bg {
+    background-color: var(--color-bg-primary);
+}
+
+.vision-bg {
+    background-color: var(--color-bg-secondary);
+}
+
+.text-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--spacing-2xl);
+    gap: var(--spacing-md);
+}
+
+.section-icon {
+    font-size: 2.5rem;
+}
+
+.section-header h2 {
+    font-size: var(--font-size-4xl);
+    color: var(--color-text-primary);
+    margin: 0;
+}
+
+.text-body p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-lg);
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .text-body p {
+        text-align: left;
+    }
+}
+
+.story-section {
+    padding: var(--spacing-5xl) 0;
+    background: var(--color-bg-s¶»§q«^

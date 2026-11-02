@@ -1,0 +1,12 @@
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #F4D03F 0%, #D4AF37 50%, #C5A028 100%);
+    transform-origin: left;
+    z-index: var(--z-fixed);
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+    transition: transform 0.1s ease-out;
+}

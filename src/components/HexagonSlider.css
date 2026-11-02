@@ -1,0 +1,64 @@
+.hexagon-slider-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* Align top initially */
+    justify-content: center;
+    gap: 4rem;
+    padding: 6rem 2rem;
+    background-color: #f7f9fc;
+    background-image: url('/bg_section2.png');
+    /* The section background pattern */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Ensure it doesn't tile weirdly */
+    min-height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* --- Left Side: Hexagons --- */
+.hexagon-controls-side {
+    position: relative;
+    z-index: 10;
+    margin-top: 50px;
+    /* Slight offset to align visual balance */
+}
+
+/* Hexagon CSS Logic (Same geometry, refined positioning) */
+.hexagon-grid {
+    position: relative;
+    width: 450px;
+    height: 350px;
+}
+
+.hexagon-btn {
+    position: absolute;
+    width: 130px;
+    height: 74px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 1;
+    color: #333333;
+    padding: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    /* Softer shadow */
+}
+
+.hexagon-btn::before,
+.hexagon-btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    transition: all 0.3s cu¶»§q«^
